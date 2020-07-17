@@ -71,6 +71,7 @@
     function snapshot(){
       context.drawImage(video, 0, 0, canvas.width, canvas.height);
       imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+      console.log(imageData);
     }
           
     function drawCorners(markers){
